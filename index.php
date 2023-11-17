@@ -14,7 +14,7 @@ $totalBungaHutang = $totalBungaA + $totalBungaB;
 $totalHutang = $hutangA + $hutangB;
 
 // Hitung sisa uang
-$sisaUang = $pemasukan - $totalHutang;
+$sisaUang = $pemasukan - $totalHutang - $totalBungaHutang;
 
 // Tampilkan hasil 
 echo "Hasil perhitungan <br>";
